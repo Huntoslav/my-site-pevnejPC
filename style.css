@@ -3,9 +3,34 @@ footer{
     background-color:#1F2937
 }
 
+body{
+    display: flex;
+    flex-direction:column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+}
+
 .header-logo{
     font-size: 24px;
     color:#F9faf8;
+    display: flex;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .big-text{
@@ -14,7 +39,27 @@ footer{
     color:#F9FAF8;
 }
 
-.smailler-text{
+.smaller-text,
+.top-right-links{
     font-size: 18px;
     color:#E5E7EB;
+}
+
+button,
+.bot-container{
+    background-color: #3882F6;
+}
+.upper-mid-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+.bot-mid{
+    background-color:#E5E7EB;
+}
+
+
+.long-text{
+    font-size: 36px;
+    
 }
